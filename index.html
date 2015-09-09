@@ -7,10 +7,11 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider/jquery.bxslider.js"></script>
     <script type="text/javascript" src="js/slider.js"></script>
 </head>
 <body>
-    <!--Header-->
+    <!--   HEADER   -->
     <div id="header" class="header main">
         <a href="#"><img class="logo" src="images/logo.jpg" alt="logo"/></a>
 
@@ -42,12 +43,70 @@
     </div>
 
     <div class="clearfix"></div>
-    <!--Body-->
+
+    <!--   BODY   -->
+
     <div id="billboard" class="billboard clearfix">
-        <div class="main bill_1">We are a Creative Digital Agency</div>
-        <a class="more" href="#">Learn more</a>
-        <img class="laptop" src="images/laptop.png" alt="laptop"/>
+        <div class="main">
+            <ul class="bxslider">
+                <li><div class="main bill_1">We are a Creative Digital Agency</div><a class="more" href="#">Learn more</a><img class="laptop" src="images/laptop.png" alt="laptop"/></li>
+                <li><img class="pano" src="images/pano.png" alt="pano"/></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="presentation" class="presentation clearfix">
+        <div class="services">
+            <div class="block first">
+                <h3>Web Design</h3>
+                <img src="images/paint.png" alt="paint">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus, lacus ac commodo volutpat, felis odio pulvinar enim, non dapibus mauris nulla sed ipsum.</p>
+                <a href="#">Read more</a>
+            </div>
+
+            <div class="block">
+                <h3>Social Media</h3>
+                <img src="images/share.png" alt="share">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus, lacus ac commodo volutpat, felis odio pulvinar enim, non dapibus mauris nulla sed ipsum.</p>
+                <a href="#">Read more</a>
+            </div>
+
+            <div class="block last">
+                <h3>Mobile Apps</h3>
+                <img src="images/mobile.png" alt="mobile">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus, lacus ac commodo volutpat, felis odio pulvinar enim, non dapibus mauris nulla sed ipsum.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" class="portfolio clearfix">
+        <div class="main">
+            <h3>Our Works</h3>
+            <div class="works">
+                <a href="#"><img src="images/work_1.jpg" alt="work_1"/></a>
+                <a href="#"><img src="images/work_2.jpg" alt="work_2"/></a>
+                <a href="#"><img src="images/work_3.jpg" alt="work_3"/></a>
+                <a href="#"><img src="images/work_4.jpg" alt="work_4"/></a>
+                <a href="#"><img src="images/work_5.jpg" alt="work_5"/></a>
+                <a href="#"><img src="images/work_6.jpg" alt="work_6"/></a>
+                <a href="#"><img src="images/work_7.jpg" alt="work_7"/></a>
+                <a href="#"><img src="images/work_8.jpg" alt="work_8"/></a>
+            </div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+
+    <div id="clients" class="clients">
+        <div class="main">
+            <h3>Clients</h3>
+            <ul class="bxslider">
+                <li>1</li>
+                <li>2</li>
+            </ul>
+        </div>
     </div>
 
 </body>
 </html>
+
