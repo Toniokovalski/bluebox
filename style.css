@@ -226,7 +226,7 @@ a {
 }
 
 
-/*SLIDER STYLE*/
+/*========SLIDER STYLE========*/
 
 /** RESET AND LAYOUT
 ===================================*/
@@ -280,12 +280,12 @@ a {
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-    left: 10px;
+    left: 20px;
     background: url(js/jquery.bxslider/images/controls.png) no-repeat 0 0;
 }
 
 .bx-wrapper .bx-next {
-    right: 10px;
+    right: 20px;
     background: url(js/jquery.bxslider/images/controls.png) no-repeat -44px 0;
 }
 
@@ -294,7 +294,7 @@ a {
 }
 
 .bx-wrapper .bx-next:hover {
-    background-position: -43px 0;
+    background-position: -44px 0;
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -403,23 +403,72 @@ h3 {
 }
 
 /* CLIENTS */
-.clients li {
-    height: 240px;
+.clients .bx-wrapper .bx-next {height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.clients h3 {padding: 40px 0 40px 85px}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.clients img, .slider1 .slide {
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    max-height: 53px;
+    max-width: 100%;
+}
+
+.clients {
+    padding-bottom: 85px;
+}
+
+/* SLIDER IN CLIENTS BLOCK */
+.clients .bx-wrapper .bx-prev {
+    left: -40px;
+    background: url(js/jquery.bxslider/images/controls.png) no-repeat 0 -68px;
+}
+
+.clients .bx-wrapper .bx-next {
+    right: -40px;
+    background: url(js/jquery.bxslider/images/controls.png) no-repeat -37px -68px;
 }
 
 
+/* === FOOTER === */
+.footer {
+    width: 100%;
+    background: #31333e;
+}
 
+.footer-menu {
+    padding-top: 45px;
+}
 
+.down_menu li a {
+    padding-right: 15px;
+}
 
+.down_menu li a, .copyright {
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #e2e7ed;
+    float: left;
+}
 
+.social {
+    float: right;
+    font-size: 1.5em;
+}
 
-
-
-
-
-
-
-
+.social a {
+    padding-right: 10px;
+}
 
 
 
