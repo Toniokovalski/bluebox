@@ -447,7 +447,9 @@ h3 {
 }
 
 .footer-menu {
-    padding-top: 45px;
+    padding-top: 2em;
+    width: 25em;
+    float: left;
 }
 
 .down_menu li a {
@@ -461,19 +463,28 @@ h3 {
     float: left;
 }
 
+.copyright {
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+
 .social {
     float: right;
     font-size: 1.5em;
+    padding-top: 1em;
 }
 
 .social a {
-    padding-right: 10px;
+    padding: 0.2em 0.5em;
+    color: #fff;
 }
 
-
-
-
-
+.facebook {background-color: #3b5998;}
+.linkedin {background-color: #006dc0;}
+.twitter {background-color: #2bc7f8;}
+.pinterest {background-color: #c61118;}
+.dribbble {background-color: #ff5e95;}
+.google-plus {background-color: #d13e2f;}
 
 
 
