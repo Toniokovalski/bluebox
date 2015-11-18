@@ -1,0 +1,43 @@
+/* tablet devices */
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .logo {padding: 0 1% 0 2%;}
+
+    .nav {margin-left: 0}
+
+    .search {margin-right: 0.5em;}
+
+    .search_field {padding-left: 1em; margin-right: 1em;}
+
+    .main {width: 50em;}
+
+    .more {left: 16em;}
+
+    .laptop {left: 12%;}
+
+    .pano {left: 9%;}
+
+    .bill_1 {left: 1em;}
+
+    .bx-wrapper .bx-prev {left: 1.25em}
+    .bx-wrapper .bx-next {right: 2.25em}
+
+    .block {padding-top: 3em;}
+    
+    .services .last {padding-top: 0}
+
+    .services {width: 50em;}
+
+    .block a {padding-bottom: 30px;}
+
+    .clients {padding-bottom: 40px;}
+
+    .clients .bx-wrapper {width: 39.375em;}
+
+    .clients h3 {padding: 1em 0 1em 1.313em;}
+
+    .bottom {padding-bottom: 50px;}
+
+    .social {margin-right: 1em;}
+    .footer-menu {margin-left: 1em;}
+}

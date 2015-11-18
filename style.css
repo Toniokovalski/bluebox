@@ -53,7 +53,7 @@ q:before, q:after {
 
 /* Header */
 .main {
-    width: 1170px;
+    width: 73.125em;
     margin: 0 auto;
 }
 
@@ -280,12 +280,12 @@ a {
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-    left: 20px;
+    left: 1.250em;
     background: url(js/jquery.bxslider/images/controls.png) no-repeat 0 0;
 }
 
 .bx-wrapper .bx-next {
-    right: 20px;
+    right: 1.250em;
     background: url(js/jquery.bxslider/images/controls.png) no-repeat -44px 0;
 }
 
@@ -337,7 +337,7 @@ a {
 }
 
 .services {
-    width: 1170px;
+    width: 73.125em;
     margin: 0 auto;
     text-align: center;
 }
@@ -408,7 +408,7 @@ h3 {
     vertical-align: middle;
 }
 
-.clients h3 {padding: 40px 0 40px 85px}
+.clients h3 {padding: 2.5em 0 2.5em 5.313em}
 
 .helper {
     display: inline-block;
@@ -475,16 +475,15 @@ h3 {
 }
 
 .social a {
-    padding: 0.2em 0.5em;
     color: #fff;
 }
 
-.facebook {background-color: #3b5998;}
-.linkedin {background-color: #006dc0;}
-.twitter {background-color: #2bc7f8;}
-.pinterest {background-color: #c61118;}
-.dribbble {background-color: #ff5e95;}
-.google-plus {background-color: #d13e2f;}
+.facebook {background-color: #3b5998; padding: 0.2em 0.43em}
+.linkedin {background-color: #006dc0; padding: 0.2em 0.3em}
+.twitter {background-color: #2bc7f8; padding: 0.2em 0.25em}
+.pinterest {background-color: #c61118; padding: 0.2em 0.35em}
+.dribbble {background-color: #ff5e95; padding: 0.2em 0.3em}
+.google-plus {background-color: #d13e2f; padding: 0.2em 0.45em}
 
 
 
