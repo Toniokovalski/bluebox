@@ -1,43 +1,134 @@
 /* tablet devices */
 
-@media screen and (min-width: 800px) and (max-width: 1200px) {
+@media screen and (min-width: 801px) and (max-width: 1200px) {
     .logo {padding: 0 1% 0 2%;}
 
     .nav {margin-left: 0}
 
-    .search {margin-right: 0.5em;}
+    .search {margin: 0}
+    .search_field {padding: 0; margin: 0}
 
-    .search_field {padding-left: 1em; margin-right: 1em;}
+    .main, .services {width: 48em;}
 
-    .main {width: 50em;}
+    .more {left: 16em; padding: 0.5em}
 
-    .more {left: 16em;}
-
-    .laptop {left: 12%;}
+    .laptop {width: 75%; left: 13.5%; top: 38.9%}
 
     .pano {left: 9%;}
 
     .bill_1 {left: 1em;}
 
-    .bx-wrapper .bx-prev {left: 1.25em}
+    .bx-wrapper .bx-prev {left: 2.25em}
     .bx-wrapper .bx-next {right: 2.25em}
 
     .block {padding-top: 3em;}
-    
-    .services .last {padding-top: 0}
 
-    .services {width: 50em;}
+    .works img {max-width: 100%; width: 33%}
+
+    .services .last {padding-top: 0}
 
     .block a {padding-bottom: 30px;}
 
     .clients {padding-bottom: 40px;}
 
+    .portfolio h3 {padding-top: 25px}
+
     .clients .bx-wrapper {width: 39.375em;}
 
-    .clients h3 {padding: 1em 0 1em 1.313em;}
+    .clients h3 {padding: 1em 0 1em 1.0em;}
 
     .bottom {padding-bottom: 50px;}
 
     .social {margin-right: 1em;}
     .footer-menu {margin-left: 1em;}
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+    .main, .services {width: 26em}
+
+    .nav {margin-left: 0; display: none}
+
+    .search {margin-right: 0.5em}
+    .search_field {padding-left: 0.5em; margin-right: 2em}
+
+    .billboard {height: 332px}
+
+    .bx-viewport {height: 350px}
+    .bxslider li {height: 350px}
+    .bx-wrapper .bx-controls-direction a {top: 65%}
+    .bx-wrapper .bx-prev {left: 1.25em}
+    .bx-wrapper .bx-next {right: 1.25em}
+
+    .bill_1 {left: 3em; top: 0.5em}
+    .bill_1, .more {font-size: 1.3em}
+    .more {left: 7em; top: 3.5em; margin-left: 0;}
+    .laptop {width: 75%; left: 17%; top: 50.6%}
+    .pano {width: 73%; left: 16%; top: 36%}
+
+    .block {padding-top: 1em; padding-right: 0}
+    .block a {padding-bottom: 10px}
+
+    .portfolio h3 {padding-top: 25px}
+    .works img {max-width: 100%; width: 50%}
+
+    .clients {padding-bottom: 40px}
+    .clients h3 {padding: 1em 1em}
+    .clients .bx-wrapper {width: 22em;}
+    .slider1 img {margin-right: 0}
+    .clients img.resize {width: 50%}
+
+    .bottom {padding-bottom: 40px}
+
+    .footer .main {padding-left: 2em}
+
+    .copyright {padding-bottom: 1em}
+    .social {float: left; padding-top: 0; padding-bottom: 1em}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .main, .services {width: 18em}
+
+    .logo {padding: 0 6% 0 3%}
+
+    .nav {margin-left: 0; display: none}
+
+    .search {display: none}
+    .search_field {display: none}
+
+    .billboard {height: 240px}
+
+    .bx-viewport {height: 302px}
+    .bxslider li {height: 302px}
+    .bx-wrapper .bx-controls-direction a {top: 65%}
+    .bx-wrapper .bx-prev {left: 1.25em}
+    .bx-wrapper .bx-next {right: 2.25em}
+
+    .bill_1 {left: 2em; top: 0.5em}
+    .bill_1, .more {font-size: 1em}
+    .more {left: 6.5em; top: 3em; margin-left: 0;}
+    .laptop {width: 75%; left: 12%; top: 40%}
+    .pano {width: 75%; left: 13%; top: 30%}
+
+    .block {padding-top: 1em; padding-right: 0}
+    .block a {padding: 5px 0 10px 0; margin: 0}
+    .block p {padding: 0; margin: 0;}
+
+    .portfolio h3 {padding-top: 25px}
+    .works img {max-width: 100%; width: 75%}
+
+    .clients {padding-bottom: 40px}
+    .clients h3 {padding: 1em 1em}
+    .clients .bx-wrapper {width: 12em;}
+    .slider1 img {margin-right: 0; width: 100%}
+    .clients img.resize {width: 50%}
+
+    .bottom {padding-bottom: 40px}
+
+    .footer .main {padding-left: 2em}
+
+    .copyright {padding-bottom: 1em; padding-top: 0}
+    .social {float: left; padding-top: 0; padding-bottom: 1em}
+
+    .footer-menu {width: 14em}
+    .footer-menu a {padding-bottom: 1em}
 }
