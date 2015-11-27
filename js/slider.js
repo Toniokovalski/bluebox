@@ -4,6 +4,12 @@
 
 (function($){
     $(document).ready(function(){
+        $( ".menu-toggle" ).click(function() {
+            $(".nav").toggle( "normal" );
+            $('nav.menu').toggleClass("menu-mobile");
+
+        });
+
         $('.bxslider').bxSlider({
             mode: 'fade',
             captions: true,
@@ -18,3 +24,6 @@
         });
     });
 })(jQuery);
+
+
+

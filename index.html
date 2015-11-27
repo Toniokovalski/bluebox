@@ -16,34 +16,36 @@
 <body>
     <!--   HEADER   -->
     <div id="header" class="header main">
-        <a href="#"><img class="logo" src="images/logo.jpg" alt="logo"/></a>
+        <div class="container">
+            <a href="#"><img class="logo" src="images/logo.jpg" alt="logo"/></a>
 
-        <div class="menu-wrap">
-            <>
-            <nav class="menu">
-                <ul class="nav">
-                    <li><a href="#">About</a></li>
-                    <li>
-                        <a href="#">Services</a>
-                        <div class="sub-menu">
-                            <ul class="links-menu">
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Wordpress Design</a></li>
-                                <li><a href="#">Mobile Apps</a></li>
-                                <li><a class="last" href="#">Social Media</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </nav>
+            <form class="search" action="">
+                <input class="search_field" type="text" placeholder="Search" required>
+            </form>
+
+            <div class="menu-wrap">
+                <a href="#" class="menu-toggle"><img src="images/3_lines_menu.png" alt="menu"/></a>
+                <nav class="menu">
+                    <ul class="nav">
+                        <li><a href="#">About</a></li>
+                        <li>
+                            <a href="#">Services</a>
+                            <div class="sub-menu">
+                                <ul class="links-menu">
+                                    <li><a href="#">Web Design</a></li>
+                                    <li><a href="#">Wordpress Design</a></li>
+                                    <li><a href="#">Mobile Apps</a></li>
+                                    <li><a class="last" href="#">Social Media</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-
-        <form class="search" action="">
-            <input class="search_field" type="text" placeholder="Search" required>
-        </form>
     </div>
 
     <div class="clearfix"></div>
@@ -51,7 +53,7 @@
     <!--   BODY   -->
 
     <div id="billboard" class="billboard clearfix">
-        <div class="main">
+        <div class="slider">
             <ul class="bxslider">
                 <li><div class="bill_1">We are a Creative Digital Agency</div><a class="more" href="#">Learn more</a><img class="laptop" src="images/laptop.png" alt="laptop"/></li>
                 <li><img class="pano" src="images/pano.png" alt="pano"/></li>
@@ -60,7 +62,7 @@
     </div>
 
     <div id="presentation" class="presentation clearfix">
-        <div class="services">
+        <div class="services container">
             <div class="block first">
                 <h3>Web Design</h3>
                 <img src="images/paint.png" alt="paint">
@@ -85,7 +87,7 @@
     </div>
 
     <div id="portfolio" class="portfolio clearfix">
-        <div class="main">
+        <div class="main container">
             <h3>Our Works</h3>
             <div class="works">
                 <a href="#"><img src="images/work_1.jpg" alt="work_1"/></a>
@@ -102,22 +104,23 @@
     </div>
 
     <div id="clients" class="clients">
-        <div class="main">
+        <div class="main container">
             <h3>Clients</h3>
             <div class="slider1 helper">
-                <div class="slide"><img class="resize" src="images/cnn.png" alt="cnn"></div>
-                <div class="slide"><img src="images/fujifilm.png" alt="fuji"></div>
-                <div class="slide"><img src="images/casio.png" alt="casio"></div>
-                <div class="slide"><img src="images/apartment.png" alt="apartment"></div>
-                <div class="slide"><img src="images/apartment.png" alt="apartment"></div>
-                <div class="slide"><img src="images/casio.png" alt="casio"></div>
-                <div class="slide"><img src="images/fujifilm.png" alt="fuji"></div>
-                <div class="slide"><img class="resize" src="images/cnn.png" alt="cnn"></div>
+                <a href="#" class="slide"><img src="images/cnn.png" alt="cnn"></a>
+                <a href="#" class="slide"><img src="images/fujifilm.png" alt="fuji"></a>
+                <a href="#" class="slide"><img src="images/casio.png" alt="casio"></a>
+                <a href="#" class="slide"><img src="images/apartment.png" alt="apartment"></a>
+                <a href="#" class="slide"><img src="images/apartment.png" alt="apartment"></a>
+                <a href="#" class="slide"><img src="images/casio.png" alt="casio"></a>
+                <a href="#" class="slide"><img src="images/fujifilm.png" alt="fuji"></a>
+                <a href="#" class="slide"><img src="images/cnn.png" alt="cnn"></a>
             </div>
+            <div class="bottom"></div>
         </div>
 
     <div id="footer" class="footer clearfix">
-        <div class="main">
+        <div class="main container">
             <div class="footer-menu">
                 <ul class="down_menu">
                     <li><a href="#">Home</a></li>

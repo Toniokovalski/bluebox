@@ -52,7 +52,13 @@ q:before, q:after {
 
 
 /* Header */
-.main {
+.container {max-width: 1200px; margin: 0 auto}
+
+.main {width: 100%;
+    margin: 0 auto;
+}
+
+.slider {
     width: 73.125em;
     margin: 0 auto;
 }
@@ -67,11 +73,44 @@ a {
     color: #626262;
 }
 
+
+/* Dropdown menu for mobile version 1st level*/
+.menu-mobile ul.nav {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    width: 100%;
+    display: block;
+}
+
+.menu-mobile ul.nav li {
+    font-size: 1.1em;
+    background: #e2e7ed;
+    border-right: none;
+    padding: 10px 0 10px 5%;
+    margin: 0 0 2px 0;
+    display: block;
+    width: 100%;
+}
+
+.menu-mobile ul.nav li a {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+/* Dropdown menu for mobile version 2nd level*/
+.menu-mobile .sub-menu {
+    width: 100%;
+}
+
+
 /* Dropdown menu */
+.menu-toggle {display: none}
+
 .nav {
     float: left;
     padding-top: 3.1em;
-    margin-left: 10em;
+    margin-left: 20%;
 }
 
 .nav li {
@@ -337,15 +376,14 @@ a {
 }
 
 .services {
-    width: 73.125em;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
 .block {
     width: 300px;
-    padding-top: 100px;
-    padding-right: 2em;
+    padding: 100px 20px 0 20px;
     display: inline-block;
 }
 
@@ -372,7 +410,7 @@ h3 {
     text-transform: uppercase;
     color: #00aeff;
     font-weight: 700;
-    padding-bottom: 75px;
+    padding-bottom: 10%;
     display: block;
 }
 
@@ -388,8 +426,8 @@ h3 {
 }
 
 .portfolio h3 {
-    padding-left: 7%;
-    padding-top: 50px;
+    display: inline-block;
+    padding: 2% 0 2% 5%;
 }
 
 .works {
@@ -401,7 +439,7 @@ h3 {
 .works img {max-width: 100%; width: 25%}
 
 .bottom {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 /* CLIENTS */
@@ -410,7 +448,10 @@ h3 {
     vertical-align: middle;
 }
 
-.clients h3 {padding: 2.5em 0 2.5em 5.313em}
+.clients h3 {
+    padding: 2% 0 2% 5%;
+    display: inline-block;
+}
 
 .helper {
     display: inline-block;
@@ -424,10 +465,6 @@ h3 {
     vertical-align: middle;
     max-height: 53px;
     max-width: 100%;
-}
-
-.clients {
-    padding-bottom: 85px;
 }
 
 /* SLIDER IN CLIENTS BLOCK */
@@ -449,7 +486,7 @@ h3 {
 }
 
 .footer-menu {
-    padding-top: 2em;
+    padding: 2% 0 0 4%;
     width: 25em;
     float: left;
 }
@@ -472,7 +509,7 @@ h3 {
 
 .social {
     float: right;
-    padding-top: 1em;
+    padding: 2% 4% 0 0;
     font-size: 1.5em;
     color: #ffffff;
     }

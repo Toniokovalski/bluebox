@@ -1,18 +1,23 @@
 /* tablet devices */
 
+@media screen and (min-width: 1200px) {
+    .works {width: 1200px; margin: 0 auto}
+    }
+
 @media screen and (min-width: 801px) and (max-width: 1200px) {
     .logo {padding: 0 1% 0 2%;}
 
-    .nav {margin-left: 0}
+    .nav {margin-left: 5%}
 
     .search {margin: 0}
     .search_field {padding: 0; margin: 0}
 
-    .main, .services {width: 48em;}
+    .slider {width: 48em;}
 
     .more {left: 16em; padding: 0.5em}
 
     .laptop {width: 75%; left: 13.5%; top: 38.9%}
+    .pano {width: 75%; left:14%; top: 20%;}
 
     .pano {left: 9%;}
 
@@ -27,15 +32,9 @@
 
     .services .last {padding-top: 0}
 
-    .block a {padding-bottom: 30px;}
-
-    .clients {padding-bottom: 40px;}
-
     .portfolio h3 {padding-top: 25px}
 
     .clients .bx-wrapper {width: 39.375em;}
-
-    .clients h3 {padding: 1em 0 1em 1.0em;}
 
     .bottom {padding-bottom: 50px;}
 
@@ -44,12 +43,19 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 800px) {
-    .main, .services {width: 26em}
+    .slider {width: 26em}
 
-    .nav {margin-left: 0; display: none}
+    .nav {display: none}
 
-    .search {margin-right: 0.5em}
-    .search_field {padding-left: 0.5em; margin-right: 2em}
+    .menu-toggle {
+        display: inline-block;
+        float: right;
+        padding-top: 2.5em;
+        padding-right: 10%;
+    }
+
+    .search {margin-right: 0; float: left; padding-top: 2.5em}
+    .search_field {padding-left: 0.5em; margin-right: 0}
 
     .billboard {height: 332px}
 
@@ -66,31 +72,35 @@
     .pano {width: 73%; left: 16%; top: 36%}
 
     .block {padding-top: 1em; padding-right: 0}
-    .block a {padding-bottom: 10px}
 
     .portfolio h3 {padding-top: 25px}
     .works img {max-width: 100%; width: 50%}
 
-    .clients {padding-bottom: 40px}
     .clients h3 {padding: 1em 1em}
     .clients .bx-wrapper {width: 22em;}
     .slider1 img {margin-right: 0}
-    .clients img.resize {width: 50%}
 
     .bottom {padding-bottom: 40px}
 
     .footer .main {padding-left: 2em}
 
     .copyright {padding-bottom: 1em}
-    .social {float: left; padding-top: 0; padding-bottom: 1em}
+    .social {float: left; padding: 2% 5% 2% 2%;}
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-    .main, .services {width: 18em}
+    .slider {width: 18em}
 
     .logo {padding: 0 6% 0 3%}
 
-    .nav {margin-left: 0; display: none}
+    .nav {display: none}
+
+    .menu-toggle {
+        display: inline-block;
+        float: right;
+        padding-top: 2.5em;
+        padding-right: 10%;
+    }
 
     .search {display: none}
     .search_field {display: none}
@@ -99,28 +109,25 @@
 
     .bx-viewport {height: 302px}
     .bxslider li {height: 302px}
-    .bx-wrapper .bx-controls-direction a {top: 65%}
-    .bx-wrapper .bx-prev {left: 1.25em}
-    .bx-wrapper .bx-next {right: 2.25em}
+    .bx-wrapper .bx-controls-direction a {top: 55%}
+    .bx-wrapper .bx-prev {left: 0.25em}
+    .bx-wrapper .bx-next {right: 0.25em}
 
     .bill_1 {left: 2em; top: 0.5em}
     .bill_1, .more {font-size: 1em}
     .more {left: 6.5em; top: 3em; margin-left: 0;}
-    .laptop {width: 75%; left: 12%; top: 40%}
-    .pano {width: 75%; left: 13%; top: 30%}
+    .laptop {width: 75%; left: 14%; top: 40%}
+    .pano {width: 75%; left: 15%; top: 30%}
 
     .block {padding-top: 1em; padding-right: 0}
-    .block a {padding: 5px 0 10px 0; margin: 0}
     .block p {padding: 0; margin: 0;}
 
-    .portfolio h3 {padding-top: 25px}
-    .works img {max-width: 100%; width: 75%}
+    .portfolio h3 {padding: 5% 0 5% 5%}
+    .works img {max-width: 100%; width: 90%}
 
-    .clients {padding-bottom: 40px}
-    .clients h3 {padding: 1em 1em}
+    .clients h3 {padding: 5% 0 5% 5%}
     .clients .bx-wrapper {width: 12em;}
     .slider1 img {margin-right: 0; width: 100%}
-    .clients img.resize {width: 50%}
 
     .bottom {padding-bottom: 40px}
 
