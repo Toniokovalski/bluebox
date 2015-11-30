@@ -116,7 +116,7 @@
     .bill_1 {left: 2em; top: 0.5em}
     .bill_1, .more {font-size: 1em}
     .more {left: 6.5em; top: 3em; margin-left: 0;}
-    .laptop {width: 75%; left: 14%; top: 40%}
+    .laptop {width: 75%; left: 14%; top: 43.6%}
     .pano {width: 75%; left: 15%; top: 30%}
 
     .block {padding-top: 1em; padding-right: 0}
@@ -138,4 +138,61 @@
 
     .footer-menu {width: 14em}
     .footer-menu a {padding-bottom: 1em}
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+    /* Dropdown menu for mobile version 1st level*/
+    .menu ul.nav {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .menu ul.nav li {
+        font-size: 1.1em;
+        background: #e2e7ed;
+        border-right: none;
+        padding: 10px 0 10px 5%;
+        margin: 0 0 2px 0;
+        display: block;
+        width: 100%;
+    }
+
+    .menu ul.nav li a {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        width: 100%;
+
+    }
+
+    /* Dropdown menu for mobile version 2nd level*/
+    .menu .sub-menu {
+        width: 100%;
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+
+    .menu li:hover .sub-menu {
+        overflow: hidden;
+        padding-top: 15px;
+    }
+
+    .menu li:hover .sub-menu a {
+        color: #31333e;
+        width: 95%;
+    }
+
+    /*.menu li:hover .sub-menu a:hover {*/
+        /*color: #00aeff;*/
+    /*}*/
+
+    .menu .sub-menu ul li {
+        background: #c6cfd9;
+        margin-bottom: 2px;
+        width: 85%;
+        clear: both;
+        border-radius: 5px;
+    }
 }
