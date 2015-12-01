@@ -8,6 +8,10 @@
             $(".nav").slideToggle( "fast" );
         });
 
+        $( ".nav li .triangle-wrapper" ).click(function() {
+            $(this).find('span').toggleClass( "triangle-bottom" );
+        });
+
         $('.bxslider').bxSlider({
             mode: 'fade',
             captions: true,
