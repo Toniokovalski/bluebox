@@ -10,9 +10,10 @@
 
         $( ".nav li .triangle-wrapper" ).click(function() {
             $(this).find('span').toggleClass( "triangle-bottom" );
+            $(this).parent().find(".sub-menu").slideToggle( "fast" );
         });
 
-        $('.bxslider').bxSlider({
+         $('.bxslider').bxSlider({
             mode: 'fade',
             captions: true,
             pager: false
